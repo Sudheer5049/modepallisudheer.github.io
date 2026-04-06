@@ -31,7 +31,6 @@ h2 {
     padding: 6px 12px;
     margin: 5px;
     border-radius: 20px;
-    font-size: 14px;
 }
 
 .project {
@@ -44,7 +43,7 @@ h2 {
 }
 
 .project:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 .project a {
@@ -66,5 +65,4 @@ footer {
     padding: 15px;
     background: #333;
     color: white;
-    margin-top: 20px;
 }
