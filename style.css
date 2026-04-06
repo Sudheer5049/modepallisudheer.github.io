@@ -1,23 +1,32 @@
 body {
     font-family: Arial;
     margin: 0;
-    background: #f4f4f4;
+    background: #eef2f7;
 }
 
 header {
-    background: #333;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
 }
 
-section {
+.card {
     background: white;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: #333;
+    color: #2a5298;
+}
+
+.project {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #2a5298;
+    background: #f9f9f9;
 }
